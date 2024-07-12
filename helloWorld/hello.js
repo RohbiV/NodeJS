@@ -1,5 +1,6 @@
+// suppose we have a functions in math.js file, we need to acess it, we could use require that is commonModule
 
-console.log("Hello this is cool! We could execute the js outside the browser!!");
+const {add,sub} = require("./math"); //using commonmodule
 
-console.log("Executed from package.json>scripts");
-
+console.log(add(2,44));
+console.log(add(55,44));
