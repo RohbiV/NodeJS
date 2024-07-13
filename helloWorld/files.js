@@ -24,10 +24,9 @@ fs.appendFileSync("./text.txt", `${Date.now()} Hello vasu`);      // it is used 
 const text = fs.readFileSync("./text.txt", "utf-8");
 console.log(text);
 
-fs.copyFileSync("./text.txt", "./copy.txt");       //for copy purpose
 
-// now for deleting the file
-fs.unlinkSync("./copy.txt");      // copy.txt file gets removed
+// // now for deleting the file
+// fs.unlinkSync("./copy.txt");      // copy.txt file gets removed
 
 
 // we could also see the stats for the files using fs.stats
