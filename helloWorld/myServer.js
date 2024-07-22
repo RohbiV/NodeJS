@@ -1,7 +1,7 @@
 
 //  Creating my server using http module in nodejs
 
-const http = require("http");
+
 const express = require("express");
 
 const app = express();
@@ -11,7 +11,7 @@ app.get("/", (req,res) => {
 });
 
 app.get("/about", (req,res) => {
-    return res.send(`Hello from about page ${req.query.name}`);
+    return res.send(`Hello from about page ${req.query.name} and you are ${req.query.age} years old!`);
 }) ;
 
 
@@ -51,10 +51,10 @@ app.get("/about", (req,res) => {
 //     })
 // }
 
-const myServer = http.createServer(app);
+app.listen(2000, () => console.log("Server Started!"));
 
-myServer.listen(2000, () => console.log("Server Started!!"));
+// we also do not need this below code as we could use express only to listen to port and it automatically fetches the http module
+// const myServer = http.createServer(app);
 
-
-
+// myServer.listen(2000, () => console.log("Server Started!!"));
 

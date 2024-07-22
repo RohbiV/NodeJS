@@ -4,3 +4,4 @@
 1721621706370: GET /signup New Request Recieved!!
 1721621926427: GET / New Request Recieved!!
 1721621926485: GET /favicon.ico New Request Recieved!!
+1721623561082: GET / New Request Recieved!!
