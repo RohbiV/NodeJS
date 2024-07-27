@@ -1,19 +1,11 @@
 [
     {
         "id": 1,
-        "first_name": "Lelah",
+        "first_name": "Vishvas",
         "last_name": "Rohfsen",
         "email": "lrohfsen0@wordpress.org",
         "gender": "Female",
         "Job_Title": "Dental Hygienist"
-    },
-    {
-        "id": 2,
-        "first_name": "Richy",
-        "last_name": "Jolliff",
-        "email": "rjolliff1@blogspot.com",
-        "gender": "Male",
-        "Job_Title": "Help Desk Technician"
     },
     {
         "id": 3,
@@ -7998,5 +7990,21 @@
         "email": "kchaineyrr@intel.com",
         "gender": "Female",
         "Job_Title": "VP Accounting"
+    },
+    {
+        "first_name": "Thakur",
+        "last_name": "Vasu",
+        "email": "thakur_vasu@gmail.com",
+        "gender": "Male",
+        "Job_Title": "Software Dev",
+        "id": 1001
+    },
+    {
+        "first_name": "Thakur",
+        "last_name": "Vasu",
+        "email": "thakur_vasu@gmail.com",
+        "gender": "Male",
+        "Job_Title": "Software Dev",
+        "id": 1002
     }
 ]
